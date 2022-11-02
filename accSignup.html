@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Registration</title>
+</head>
+
+<body>
+    <h1>Create an account</h1>
+    <form action="/tacos">
+        <p>
+            <label for="name">Enter your first name:</label>
+            <input type="text" name="name" id="name" required>
+        </p>
+        <p>
+            <label for="email">What's your email:</label>
+            <input type="email" name="email" id="email" required>
+        <p>You'll need to confirm this email later.</p>
+        </p>
+
+        <p>
+            <label for="name">Create a password:</label>
+            <input type="password" name="password" id="passowrd" required>
+        </p>
+
+        <p>
+        <p>Choose a plan</p>
+        <label for "free">free</label>
+        <input type="radio" name="plan" id="free" value="free">
+        <label for "individual">individual</label>
+        <input type="radio" name="plan" id="individual" value="individual">
+        <label for "duo">duo</label>
+        <input type="radio" name="plan" id="duo" value="duo">
+        <label for "family">family</label>
+        <input type="radio" name="plan" id="family" value="family">
+        </p>
+
+        <p>
+            <input type="checkmark" name="agree_tos" id="agree" required>
+            <label for="agree">I agree to the following terms and conditions.</label>
+        </p>
+        <button>next</button>
+    </form>
+</body>
+
+</html>
