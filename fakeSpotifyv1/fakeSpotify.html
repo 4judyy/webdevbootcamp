@@ -3,12 +3,13 @@
 
 <head>
     <Title>Spotify</Title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <h1>Spotify</h1>
 
-    <h2>Good evening</h2>
+    <h2>Good <span>evening</span></h2>
 
     <nav>
         <h3> <a href="https://www.youtube.com/watch?v=gpt1h0LK_GI&ab_channel=bcarpyy"> Music,</a> <a
@@ -23,9 +24,9 @@
     <!--want to make this columns, not like that also include little photos besides like in spotify-->
     <main>
         <section>
-            <h4>zzZ, spiralling 24/7, (((0))), K!, calc >:(, take it slow</h4>
+            <h4>zzZ, <span class="songs">spiralling 24/7</span>, (((0))), K!, calc >:(, take it slow</h4>
         </section>
-        <h2>Your friends are listening to</h2>
+        <h2 id="friends">Your friends are listening to</h2>
 
         <section>
             <h4>
@@ -40,10 +41,11 @@
             </h4>
         </section>
     </main>
+    <!-- note y + x, any x following y, the style is applied -->
 
     <article>
         <hr>
-        <p>&#9834; Now Playing: Always - Keshi </p>
+        <p>&#9834; Now Playing: <span class="songs">Free Time</span> - Ruel </p>
         <p>
             <label for="volume">&#128265;:</label>
             <input type="range" name="volume" id="volume" min="0" max="10" value="50">
