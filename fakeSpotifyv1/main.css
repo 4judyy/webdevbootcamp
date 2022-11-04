@@ -26,6 +26,8 @@ h4 {
 a {
     width: 100;
     border: thin solid #000000;
+    color: aliceblue;
+    background-color: rgba(18, 34, 77, 0.5);
     padding: 3.5px;
     border-radius: 0.5em;
     /* border-color: #176EAD;
@@ -37,6 +39,8 @@ button {
     font-size: 1rem;
     color: rgba(49, 41, 51, 1);
     background-color: rgba(225, 150, 145, 1);
+    transition: 1s;
+    border: 2px solid;
 }
 
 button:hover {
@@ -45,11 +49,12 @@ button:hover {
 }
 
 a:active {
+    color: rgba(225, 150, 145, 1) !important;
     background-color: rgba(18, 34, 77, 1);
 }
 
 a:hover {
-    color: rgba(225, 150, 145, 1);
+    color: rgb(59, 66, 115);
     text-decoration: underline;
 }
 
