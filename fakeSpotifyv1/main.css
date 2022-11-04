@@ -7,6 +7,7 @@
 h1 {
     color: rgba(18, 34, 77, 1);
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -15,13 +16,27 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 14px;
+}
+
+h4 {
+    margin-bottom: -1%;
+}
+
+a {
+    width: 100;
+    border: thin solid #000000;
+    padding: 3.5px;
+    border-radius: 0.5em;
+    /* border-color: #176EAD;
+    border-width: 1px;
+    border-style: solid; */
 }
 
 button {
+    font-size: 1rem;
     color: rgba(49, 41, 51, 1);
     background-color: rgba(225, 150, 145, 1);
-
 }
 
 button:hover {
@@ -41,6 +56,7 @@ a:hover {
 #friends {
     font-weight: bold;
     color: rgba(41, 50, 128, 1);
+    margin-bottom: -10px;
 }
 
 span {
@@ -58,6 +74,8 @@ main>article {
 
 input {
     color: rgba(41, 50, 128, 1);
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 li::selection {
