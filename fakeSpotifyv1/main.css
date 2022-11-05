@@ -20,7 +20,7 @@ h3 {
 }
 
 h4 {
-    margin-bottom: -1%;
+    font-size: 14px;
 }
 
 a {
@@ -60,8 +60,8 @@ a:hover {
 
 #friends {
     font-weight: bold;
+    font-size: 20px;
     color: rgba(41, 50, 128, 1);
-    margin-bottom: -10px;
 }
 
 span {
@@ -81,6 +81,7 @@ input {
     color: rgba(41, 50, 128, 1);
     font-weight: 600;
     font-size: 1rem;
+    margin-bottom: 1%;
 }
 
 li::selection {
