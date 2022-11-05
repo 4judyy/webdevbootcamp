@@ -87,3 +87,7 @@ li::selection {
     background-color: #E19691;
     color: rgba(18, 34, 77, 1);
 }
+
+hr {
+    width: 400px;
+}
